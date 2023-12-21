@@ -1,6 +1,6 @@
 <?php
 
-namespace SuperBan;
+namespace EdenLife;
 
 class SuperBan
 {

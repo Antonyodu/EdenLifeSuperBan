@@ -1,7 +1,7 @@
 <?php
 
-namespace SuperBan\Tests\Feature;
-
+namespace EdenLife\Tests\Feature;
+use EdenLife\SuperBanMiddleware;
 use Tests\TestCase;
 use Illuminate\Support\Facades\Route;
 
