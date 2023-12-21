@@ -1,6 +1,6 @@
 <?php
 
-namespace EdenLife;
+namespace SuperBan;
 use Closure;
 use Illuminate\Cache\RateLimiter;
 use Illuminate\Http\Request;
