@@ -32,7 +32,7 @@ To utilize Superban in your Laravel application, add the Superban middleware to 
 
 <pre>protected$middleware = [
      // ... other middleware
-     \Edenlife\Superban\Http\Middleware\SuperbanMiddleware::class,
+     \SuperBanHttp\Middleware\SuperbanMiddleware::class,
      ];</pre>
 
 ### Example Middleware Usage

@@ -1,11 +1,11 @@
 <?php
 
-namespace EdenLife\SuperBan;
+namespace SuperBan;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \EdenLife\SuperBan\Skeleton\SkeletonClass
+ * @see \SuperBanSkeleton\SkeletonClass
  */
 class SuperBanFacade extends Facade
 {

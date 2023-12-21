@@ -1,6 +1,6 @@
 <?php
 
-namespace EdenLife\SuperBan;
+namespace SuperBan;
 
 use Closure;
 use Illuminate\Http\Request;

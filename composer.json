@@ -1,8 +1,8 @@
 {
-    "name": "edenlife/superban",
+    "name": "EdenLife/superban",
     "description": " This package will add the ability to ban a client completely for a period of time",
     "keywords": [
-        "edenlife",
+        "SuperBan",
         "SuperBan",
         "limiter"
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EdenLife\\": "src"
+            "SuperBan\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EdenLife\\Tests\\": "tests"
+            "SuperBan\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EdenLife\\SuperBanServiceProvider"
+                "SuperBan\\SuperBanServiceProvider"
             ],
             "aliases": {
-                "SuperBan": "EdenLife\\SuperBanFacade"
+                "SuperBan": "SuperBan\\SuperBanFacade"
             }
         }
     }
