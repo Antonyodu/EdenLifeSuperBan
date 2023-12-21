@@ -6,7 +6,7 @@
         "SuperBan",
         "limiter"
     ],
-    "homepage": "https://github.com/Antonyodu/superban",
+    "homepage": "https://github.com/Antonyodu/EdenLifeSuperBan",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EdenLife\\SuperBan\\": "src"
+            "EdenLife\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EdenLife\\SuperBan\\Tests\\": "tests"
+            "EdenLife\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EdenLife\\SuperBan\\SuperBanServiceProvider"
+                "EdenLife\\SuperBanServiceProvider"
             ],
             "aliases": {
-                "SuperBan": "EdenLife\\SuperBan\\SuperBanFacade"
+                "SuperBan": "EdenLife\\SuperBanFacade"
             }
         }
     }
