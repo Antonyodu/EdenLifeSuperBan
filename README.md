@@ -37,7 +37,7 @@ To utilize Superban in your Laravel application, add the Superban middleware to 
 
 ### Example Middleware Usage
 
-<pre>Route::get('/protected-route', 'YourController@protectedAction')->middleware('superban');
+<pre>Route::get('/protected-route', 'YourController@protectedAction')->middleware('superban:10,2,10');
 </pre>
 
 ## Contributing
