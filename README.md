@@ -46,4 +46,4 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 
 ## License
 
-Superban is open-sourced software licensed under the [MIT license](https://chat.openai.com/c/LICENSE.md).
+Superban is open-sourced software licensed under the MIT License.
